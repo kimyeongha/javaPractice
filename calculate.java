@@ -1,36 +1,36 @@
 package chapter06_Class01;
 
 public class calculate {
-	void getadd(int number1, String op, int number2) {
-		if (op.equals("+")) {
+	static void getadd(int number1, String op, int number2) {
+		
 			int result = 0;
 			result = number1 + number2;
-
-		}
+			System.out.println("답은"+result+"입니다");
+		
 	}
 
-	void getsub(int number1, String op, int number2) {
-		if (op.equals("-")) {
+	static void getsub(int number1, String op, int number2) {
+		
 			int result = 0;
 			result = number1 - number2;
+			System.out.println("답은"+result+"입니다");
 
-		}
 	}
 
-	void getmul(int number1, String op, int number2) {
-		if (op.equals("*")) {
+static	void getmul(int number1, String op, int number2) {
+		
 			int result = 0;
 			result = number1 * number2;
-
-		}
+			System.out.println("답은"+result+"입니다");
+		
 
 	}
-	void getdiv(int number1, String op, int number2) {
-		if (op.equals("/")) {
-			int result = 0;
+static	void getdiv(double number1, String op, double number2) {
+		
+			double result = 0;
 			result = number1 / number2;
 
-		}
+			System.out.println("답은"+result+"입니다");
 
 	}
 }

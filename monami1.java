@@ -6,7 +6,7 @@ public class monami1 {
     String color;
     
     
-   String push(){
+     String push(){
 	   String result="펜을 누르면 심지가 나옵니다.";
    return result;
    }
